@@ -11,9 +11,8 @@ public class cam : MonoBehaviour {
 		cameraBack = new WebCamTexture ();
 		GetComponent<Renderer> ().material.mainTexture = cameraBack;
 		//Debug.LogError("[CameraParametersAndroid] qzqqzdqdz");
-
 		cameraBack.Play ();
-		StartFlashLight ();
+		//StartFlashLight ();
 	}
 	
 	// Update is called once per frame

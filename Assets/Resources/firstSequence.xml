@@ -3,25 +3,29 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>Name</key>
-		<string>startButton</string>
-		<key>Type</key>
-		<string>button</string>
-		<key>Parameters</key>
-		<dict>
-			<key>Number of buttons</key>
-			<integer>1</integer>
-			<key>Image filename for button 1</key>
-			<string>start.png</string>
-			<key>Next event index for button 1</key>
-			<integer>1</integer>
-			<key>X position for button 1</key>
-			<real>0.75</real>
-			<key>Y position for button 1</key>
-			<real>0.25</real>
-		</dict>
-		<key>Duration</key>
-		<integer>0</integer>
+		<key name="Name">
+			<string>startButton</string>
+		</key>
+		<key name="Type">
+			<string>button</string>
+		</key>
+		<key name="Parameters">
+			<dict>
+				<key>Number of buttons</key>
+				<integer>1</integer>
+				<key>Image filename for button 1</key>
+				<string>start.png</string>
+				<key>Next event index for button 1</key>
+				<integer>1</integer>
+				<key>X position for button 1</key>
+				<real>0.75</real>
+				<key>Y position for button 1</key>
+				<real>0.25</real>
+			</dict>
+		</key>
+		<key name="Duration">
+			<integer>0</integer>
+		</key>
 	</dict>
 	<dict>
 		<key>Name</key>
